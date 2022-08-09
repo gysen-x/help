@@ -1,3 +1,19 @@
+##### Ш Р И Ф Т Ы #####
+serif - стандартный шрифт с засечками
+sans-serif - стандартный шрифт без засечек
+
+##### ТОЛЩИНА #####
+100 - тонкий thin
+200 - светлый extra light
+300 - светлый light
+400 - нормальный normal regular
+500 - средний medium
+600 - полужирный semi bold
+700 - жирный bold
+800 - сверхжирный extra bold
+900 - черный black
+
+
 Подключение шрифтов:
 
 @font-face {
@@ -13,3 +29,4 @@ font-display: swap;
 body {
 font-family: "OpenSans", sans-serif;
 font-weight: 400;
+
