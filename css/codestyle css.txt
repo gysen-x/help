@@ -1,0 +1,62 @@
+##### C O D E S T Y L E   C S S #####
+
+1. Табуляция = 2 пробела
+2. Пробел перед {
+3. Пробел после :
+4. Пустая строка между селекторами
+5. Каждое свойство на новой строке
+6. Кавычки в url('***')
+7. После каждого свойства ;
+8. После , в свойстве ставится пробел
+9. В color: rgb(0,0,0) пробелы не ставятся
+10. Цвета сокращаются #ffffff => #fff
+11. Для прозрачности используется rgba
+12. В селекторе по атрибуту - двойные кавычки (input[type="checkbox"])
+13. У нулевого значения единицы измерения не пишутся
+
+
+##### Порядок свойств #####
+
+1. Позиционирование:
+- position: relative;
+- left: 0;
+- right: 0;
+- top: 0;
+- bottom: 0;
+
+2. Блочная модель:
+- display: flex;
+- align-items: center;
+- margin: 10px;
+- padding: 10px;
+- border: 1px solid red;
+- width: 200px;
+- height: 100px;
+- box-sizing: border-box;
+
+3. Типографика:
+- font-family: Arial;
+- font-size: 25px;
+- font-style: italic;
+- text-decoration: none;
+- color: red;
+
+4. Оформление:
+- background: red;
+- background-image: url('***');
+- background-repeat: no-repeat;
+- opacity: 1;
+- border-radius: 10px;
+
+5. Анимация:
+- transform: tranlateX(5px);
+- animation: shake 0.3s infinite;
+
+
+##### Наименование классов #####
+
+- Для названий классов использовать camel-case
+- Нижнее подчеркивание использовать только при БЭМ
+- Называть классы транслитом запрещено
+
+

@@ -1,6 +1,6 @@
 ##### Т Е Г И   H T M L #####
-
-
+php запросы
+https://jsonplaceholder.typicode.com/posts
 
 ##### FORM #####
 <form action='https://' method='POST'> - 

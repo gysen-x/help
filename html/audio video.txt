@@ -1,0 +1,12 @@
+##### V I D E O #####
+webm и mp4 весят меньше всего
+
+<video width='480' poster='poster.png' controls loop preload='auto'>  
+  <source src='video.vebm' type='video/webm'>
+</video>
+
+##### YOUTUBE #####
+<iframe width='560' height='315' src='https://www.youtube.com/...' title='Youtube'></iframe> 
+
+
+##### A U D I O #####
