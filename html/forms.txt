@@ -3,21 +3,21 @@ php запросы
 https://jsonplaceholder.typicode.com/posts
 
 ##### FORM #####
-<form action='https://' method='POST'> - 
-<input type='text' maxlength='5' placeholder='Введите текст' required> - текстовый формат, максимальное количество символов, плэйсхолдер - серые буквы на пустой строке, обязательное поле
-<input type='number' min='0' max='10'> - числовой формат, минимальное и максимальное значение
-<input type='email'> - проверка на правильное заполнение почты
-<input type='tel'> - проверка на правильное заполнение телефона
-<input type='password'> - скрывает символы 
-<input type='date'> - формат даты, открывает календарь
-<input type='search'> - формат поисковой строки
-<input type='file' accept='image/*'> - загрузка файлов определенного формата
-<input type='radio' name='***' value='Значение'> - радиокнопка, checked - предопределена
-<input type='radio' name='***' value='Значение2' checked>
-<input type='checkbox' name='***'> - чекбокс
-<select name='***'> - раскрывающийся список
-  <option value='***'>***</option> - вариант выбора
-  <option value='***' disabled>***</option> - вариант выбора неактивный
-<textarea name='***'> - поле для ввода текста
-<button type='submit'> Отправить </button>
+<form action="https://" method="POST"> - 
+<input type="text" maxlength="5" placeholder="Введите текст" required> - текстовый формат, максимальное количество символов, плэйсхолдер - серые буквы на пустой строке, обязательное поле
+<input type="number" min="0" max="10"> - числовой формат, минимальное и максимальное значение
+<input type="email"> - проверка на правильное заполнение почты
+<input type="tel"> - проверка на правильное заполнение телефона
+<input type="password"> - скрывает символы 
+<input type="date"> - формат даты, открывает календарь
+<input type="search"> - формат поисковой строки
+<input type="file" accept="image/*"> - загрузка файлов определенного формата
+<input type="radio" name="***" value="Значение"> - радиокнопка, checked - предопределена
+<input type="radio" name="***" value="Значение2" checked>
+<input type="checkbox" name="***"> - чекбокс
+<select name="***"> - раскрывающийся список
+  <option value="***">***</option> - вариант выбора
+  <option value="***" disabled>***</option> - вариант выбора неактивный
+<textarea name="***"> - поле для ввода текста
+<button type="submit"> Отправить </button>
 </form>
