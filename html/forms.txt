@@ -21,3 +21,14 @@ https://jsonplaceholder.typicode.com/posts
 <textarea name="***"> - поле для ввода текста
 <button type="submit"> Отправить </button>
 </form>
+
+
+##### ФОРМЫ #####
+
+Форма - это компонент веб-страницы с элементами управления.
+Пользователь может с ней взаимодействовать.
+Отправка формы серверу осуществляется через HTTP GET или POST - за это отвечает атрибут method.
+За адрес сервера отвечает атрибут action.
+
+<form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+

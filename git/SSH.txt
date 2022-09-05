@@ -1,0 +1,5 @@
+##### SSH-KEY #####
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" - сгенерировать SSH-ключ
+ssh-keygen -p -f ~/.ssh/id_ed25519 - сменить пароль у SSH-ключа
+ssh -T git@github.com - проверить подключение к гитхабу по SSH-ключу
