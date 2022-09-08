@@ -1,0 +1,22 @@
+##### TRANSITION #####
+
+transition - позволяет анимировать элементы
+
+transition-property: - какие свойства нужно анимировать
+:all - анимировать все свойства
+:*** - анимируем только свойство ***
+:color - анимировать только цвет
+
+transition-duration: - продолжительность анимации
+: 0.5s - можно указывать в секундах
+: 500ms - можно указывать в милисекундах
+
+transition-timing-function:
+:ease-in-out
+
+transition-delay: - задержка анимации
+: 0.5s - можно указывать в секундах
+: 500ms - можно указывать в милисекундах
+
+transition: color 0.5s ease-in-out; - если одно свойство
+transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out; - если несколько свойств
