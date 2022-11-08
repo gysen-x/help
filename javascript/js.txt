@@ -1,0 +1,44 @@
+##### J A V A S C R I P T #####
+
+##### Комментарии #####
+
+//Комментарий - однострочный комментарий, заканчивается в конце строки
+/* Многострочный
+комментарий */  - многострочный комментарий, границы обрамляются слэшами
+
+##### html #####
+
+<script src="main.js"></script> - подключение файла javascript к HTML. Нужно подключать не в head, а в конце тега body.
+
+#####
+
+console - метод, который обращается к консоли
+
+console.log('Hello, world!');- вывести текст в консоль
+
+document - объект, который хранит те или иные методы для работы со страницей
+
+document.querySelector('.class'); - метод, который обращается к элементу с определенным классом в html
+
+document.querySelector('.class').style.color='red';
+
+document.querySelectorAll('.class') - метод, который обращается к массиву
+
+document.querySelectorAll('.class').forEach(function(element) {
+element.style.color='red';
+})
+- forEach перебирает каждый элемент (element) массива и обращается к нему, при этом переменная element работает только для данной функции
+
+#####
+
+let block = document.querySelector('.class');
+
+block.classList.add('translate') - добавить элементу html класс translate (точку класса передавать не нужно)
+
+block.classList.remove('translate') - убрать класс translate у html элемента
+
+##### Обработчик события #####
+
+block.addEventListener('click', function() {
+block.classList.add('translate');
+});
