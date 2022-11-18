@@ -1,0 +1,6 @@
+Если в коммите не ввести комментарий, то откроется текстовый редактор vi. Чтобы в нем ввести имя коммита нужно:
+- press i (i for insert)
+- write your merge message
+- press esc (escape)
+- write :wq (write & quit)
+- then press enter
