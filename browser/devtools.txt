@@ -1,2 +1,0 @@
-
-document.body.contentEditable = true - позволяет проверять контент на переполнение на сайте

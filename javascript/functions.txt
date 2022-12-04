@@ -1,0 +1,15 @@
+##### F U N C T I O N S #####
+
+##### Стрелочная функция #####
+
+const sayHello = () => {
+  console.log('Hello!')
+}
+
+##### Классическая функция #####
+
+function sayHello() {
+  console.log('Hello!')
+}
+
+

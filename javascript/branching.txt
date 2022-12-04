@@ -15,3 +15,16 @@ hiJack = (friend == "Jack") ? "Hi, Jack!" : "Hi";
 console.log(hiJack);
 
 приведет к выводу "Hi, Jack!" если переменная friend будет иметь значение "Jack" или к выводу "Hi" при любом другом значении.
+
+##### Switch #####
+
+(count) => {
+  switch (count) {
+    case 1:
+      return 'one';
+    case 2:
+      return 'two';
+    default:
+      return null;
+  }
+};
