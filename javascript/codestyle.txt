@@ -1,0 +1,17 @@
+##### ESLint #####
+
+npm init -y - создается файл package.json разобраться зачем он нужен
+
+npm i -D eslint - (-D означает дев зависимость) создает package-lock.json и папку node_modules
+
+папку node_modules нужно добавить в .gitignore
+
+npm init @eslint/config - запускает ESLint (npx eslint --init)
+
+При запуске выбрать To check syntax, find problems and enforce code style, потом выбрать тип модулей и фреймворков
+
+##### Prettier #####
+
+cmd + shift + p => prettier - создается файл .prettierrc 
+
+в нем нужно указать  "singleQuote": true чтобы заменял все кавычки на одинарные
