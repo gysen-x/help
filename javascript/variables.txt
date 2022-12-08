@@ -115,3 +115,4 @@ delete myCity.country //удаление свойства
 
 console.log(myCity) //выведение в консоль
 
+liaplus
