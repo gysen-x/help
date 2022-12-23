@@ -1,0 +1,78 @@
+##### C L A S S E S #####
+
+this - создается пустой объект и он присваивается this. С помощью this можно модифицировать свойства.
+
+class MyClass {
+  prop = value; // свойство
+  constructor(...) { // конструктор
+    // ...
+  }
+  method(...) {} // метод
+  get something(...) {} // геттер
+  set something(...) {} // сеттер
+  [Symbol.iterator]() {} // метод с вычисляемым именем (здесь - символом)
+  // ...
+}
+
+Затем используется вызов 
+
+new MyClass()
+
+##### Пример #####
+
+class User {
+constructor(name) {
+this.name = name;
+}
+sayHi() {
+alert(this.name);
+}
+}
+
+let user = new User('Ivan');
+user.sayHi()
+
+##### EXTENDS #####
+class Child extends Parent
+Мы создаем класс Animal для добавления животного
+
+class Animal {
+  constructor(name) {
+    this.speed = 0;
+    this.name = name;
+  }
+  run(speed) {
+    this.speed = speed;
+    alert(`${this.name} бежит со скоростью ${this.speed}.`);
+  }
+  stop() {
+    this.speed = 0;
+    alert(`${this.name} стоит неподвижно.`);
+  }
+}
+
+let animal = new Animal("Мой питомец");
+
+#####
+
+С помощью extends мы получаем все методы от класса Animal, и расширяем функционал класса Rabbit.
+Когда мы обращаемся к несуществующему методу класса Rabbit, начинается поиск в классе Animal 
+
+class Rabbit extends Animal {
+  hide() {
+    alert(`${this.name} прячется!`);
+  }
+}
+
+let rabbit = new Rabbit("Белый кролик");
+
+rabbit.run(5); // Белый кролик бежит со скоростью 5.
+rabbit.hide(); // Белый кролик прячется!
+
+##### SUPER #####
+
+Если мы хотим изменить уже существующий метод в родительском классе, то используется super.
+
+super.method(...) - вызывает родительский метод
+super(...) - вызывает родительский конструктор
+

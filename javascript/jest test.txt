@@ -1,4 +1,4 @@
-##### J E S T #####
+n##### J E S T #####
 
 1. npm init -y - инициализация файла package.json
 

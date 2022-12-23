@@ -1,0 +1,21 @@
+##### IMPORT / EXPORT #####
+
+##### Common JS #####
+
+module.exports = funcName; - экспорт с божьей помощью
+
+module.exports = {funcName, secondFunc} - передача нескольких значений
+
+const funcName = require('./funcName.js'); - экспорт с помощью модулей
+
+##### ESM modules #####
+
+export function counter() {...} - экспорт до объявления
+
+export { counter, value } - экспорт после объявления для нескольких переменных
+
+export default counter - экспорт по умолчанию после объявления для одной переменной
+
+import { counter, value } from './counter.js' - импорт нескольких объектов
+
+import counter from './counter.js' - импорт одного объекта

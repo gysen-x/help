@@ -1,0 +1,15 @@
+##### First steps in new project #####
+
+1. npm init -y - инициализация файла package.json со всеми утвердительными ответами
+
+2. npx eslint --init - инициализация пакетов ESLint для проверки и исправления кода
+
+3. npx create-gitignore node - создать файл .gitignore
+
+4. npm install -D jest - установка пакетов тестировщика JEST в Дев
+
+5. Добавить в package.json: "scripts": {"test": "jest"}
+
+6. Создать каталог 'spec' и поместить в папку файл с расширением *.spec.js, в котором пишется тест
+
+
